@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <div class="audioFiles">
+            <audio class="audioNormal" src="./thinking-time-148496.mp3" ></audio>
+            <audio class="audioCorrect" src="./correct-156911.mp3" ></audio>
+            <audio class="audioWrong" src="./error-8-206492.mp3"></audio>
+        </div>
+
+        <div class="startPage">
+            <img class="headingQuizStart" src="./image/Group 4.png" alt="Quiz Time">
+            <button class="startNow">Start Now >>></button>
+            <p class="heightScore"></p>
+            <div class="clearLocal">Clear All My Data</div>
+        </div>
+
+        <div class="quizPages">
+            <div class="headQuizPage">
+                <img class="headingQuizPage" src="./image/Group 4.png" alt="Quiz Time">
+                <div class="audioImg">
+                    <img class="volumeUp" src="./image/icon _Volume Up.svg" alt="">
+                <img class="volumeMute" src="./image/icon _Volume Mute.svg" alt="">
+                </div>
+            </div>
+            <div class="QuizContainer">
+            <div class="queCount"><span class="queCountSpan"></span></div>
+                <div class="question">
+                    What is Naruto's Special Technique?
+                </div>
+                <div class="time"><span class="timeSpan"></span></div>
+                <div class="answerContainer">
+                    <div class="answer" id="rightAns"><span class="option">Rassengan </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option">Chidori </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option">Amatarasu </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option"> Sage Art </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                </div>
+                <div class="next"><span class="nextSpan">Next ></span> </div>
+            </div>
+            <div class="QuizContainer">
+            <div class="queCount"><span class="queCountSpan"></span></div>
+                <div class="question">
+                    Who is known as Copy Ninja?
+                </div>
+                <div class="time"><span class="timeSpan"></span></div>
+
+                <div class="answerContainer">
+                    <div class="answer"><span class="option">Orochimaru </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span> </span></div>
+                    <div class="answer" id="rightAns"><span class="option">Kakashi </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option">Itachi </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option">Naruto </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                </div>
+                <div class="next"><span class="nextSpan">Next ></span> </div>
+            </div>
+
+            <div class="QuizContainer">
+                <div class="queCount"><span class="queCountSpan"></span></div>
+                    <div class="question">
+                        Who is known as Red Beast?
+                    </div>
+                    <div class="time"><span class="timeSpan"></span></div>
+    
+                    <div class="answerContainer">
+                        <div class="answer"><span class="option">Orochimaru </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span> </span></div>
+                        <div class="answer" id="rightAns"><span class="option">Might guy </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                        <div class="answer"><span class="option">Itachi </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                        <div class="answer"><span class="option">Naruto </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    </div>
+                    <div class="next"><span class="nextSpan">Next ></span> </div>
+                </div>
+
+
+                <div class="QuizContainer">
+                    <div class="queCount"><span class="queCountSpan"></span></div>
+                        <div class="question">
+                            Who is Kakashi's Sensei?
+                        </div>
+                        <div class="time"><span class="timeSpan"></span></div>
+        
+                        <div class="answerContainer">
+                            <div class="answer" id="rightAns"><span class="option">Minato </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span> </span></div>
+                            <div class="answer"><span class="option">Jiraya </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                            <div class="answer"><span class="option">Itachi </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                            <div class="answer"><span class="option">Naruto </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                        </div>
+                        <div class="next"><span class="nextSpan">Next ></span> </div>
+                    </div>
+
+
+
+            <div class="QuizContainer">
+            <div class="queCount"><span class="queCountSpan"></span></div>
+                <div class="question">
+                    Who is best friend of Kakashi?
+                </div>
+                <div class="time"><span class="timeSpan"></span></div>
+
+                <div class="answerContainer">
+                    <div class="answer"><span class="option">Tobi </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option">Minato</span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer"><span class="option">Jiraya </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                    <div class="answer" id="rightAns"><span class="option">Might Guy </span> <span class="checkImg"><img class="correctCheckImg" src="./image/correct.svg" alt=""> <span class="wrongCheckImg">You Chose<img src="./image/wrong.svg" alt=""></span></span></div>
+                </div>
+                <div class="score"><button>See Score</button></div>
+
+            </div>
+
+            <div class="error">Please choose one option.....</div>
+        </div>
+
+        <div class="resultPage">
+            <img class="resultImg" src="./image/Group 4.png" alt="Quiz Time">
+                <h1>Result</h1>
+            <div class="progress-bar">
+                <div class="progress-value">
+                  <span class="firstPercent"></span> 
+                </div>
+                <span class="secondPercent"></span>
+            </div>
+            <p class="ansCount"></p>
+            <p class="quotesResult">"Hi "</p>
+            <button class="retryButton"> &lt;&lt;&lt;Retry</button>
+        </div>
+
+    </main>
+</body>
+</html>
