@@ -1,0 +1,57 @@
+.animeContainer{
+    margin-top: 10px;
+    display: inline-flex;
+}
+
+.static-txt{
+    font-size: 35px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.dynamic-txts{
+    font-size: 40px;
+    list-style: none;
+    margin-left: 10px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.dynamic-txts span{
+    display: inline-block;
+    position: relative;
+    background:linear-gradient(yellow, orange);
+    padding-inline: 8px;
+
+}
+.dynamic-txts li{
+
+    animation: slide 10s steps(5) infinite;
+
+    position: relative;
+    top: 0;
+}
+@keyframes slide{
+    100%{
+        top: -200px;
+}
+}
+.dynamic-txts span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(48, 48, 108);
+    animation: typing 1s  infinite;
+
+    animation-direction: alternate;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+}
+}

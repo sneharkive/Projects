@@ -1,0 +1,308 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    letter-spacing: .8px;
+}
+
+header{
+    color: rgb(243, 212, 197); 
+    min-height: 400px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.52)), url(https://monogramcc.com/static/9a0b554db1990565457610c5f83b3ad7/91943/shop_cta_xl_896f6b8270.webp);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+header h1{
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+
+.container1, .container2{
+    min-height: 80vh;
+    width: 100%;
+    margin-block: 30px;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallImage{
+    max-width: 500px;
+    margin: 10px 11px;
+}
+.largeImage{
+    margin-inline: auto;
+    max-width: 1040px;
+    margin-bottom: 10px;
+}
+figcaption{
+    display: flex;
+    justify-content: space-between;
+}
+.anchorImage p{
+    color: rgba(17, 17, 135, 0.983);
+    margin-top: 10px;
+}
+.anchorImage{
+    margin-bottom: 20px;
+}
+.anchorImage:hover{
+    cursor: pointer;
+}
+
+.normallyShow, .anchorImage:hover .hoverShow{
+    display: block;
+}
+.hoverShow, .anchorImage:hover .normallyShow{
+    display: none;
+
+}
+h3, .head2 h1{
+    color: rgb(12, 12, 77);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.head2 p{
+    color: rgb(12, 12, 77);
+    font-size: 20px;
+    line-height: 40px;
+}
+h1{
+    font-size: 35px;
+}
+.head2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://monogramcc.com/static/fb6b98aa90bbce383e12a09c50936e96/9ee2a/shop-banner-module.webp);
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.smallImage2{
+    width: 350px;
+    object-fit: cover;
+    margin: 10px 11px;
+}
+
+.shopNow{
+    font-size: 12px;
+    background-color: rgb(12, 12, 77);
+    width: 90px;
+    height: 20px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 4px;
+    text-transform: uppercase;
+}
+.fixedHead{
+    position: fixed;
+    top: 0%;
+    right:0%;
+    width: 100%;
+    min-height: 35px;
+    background-color: rgba(97, 18, 172, 0.901);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+}
+#header-img{
+    width: 30px;
+}
+nav a{
+    color: white;
+    margin-inline: 10px;
+    text-decoration: none;
+    font-size: 14px;
+}
+nav a:hover{
+    color: pink;
+}
+.leftDiv{
+    width: 150px;
+    min-height: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.div1, .div2{
+    margin: 50px;
+    padding: 40px 100px;
+    text-align: center;
+    line-height: 25px;
+
+}
+.div1{
+    background-color: antiquewhite;
+}
+.div2{
+    background-color: rgb(98, 98, 181);
+    color: rgba(255, 255, 255, 0.873)
+}
+.steps{
+    margin-top: 70px;
+}
+#down{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 120px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 50px;
+}
+.step1 a{
+    color:whitesmoke
+}
+#down:hover, .step1 a:hover{
+    background-color: black;
+}
+
+#contactUs{
+    width: 100%;
+    min-height: 220px;
+    background-color: rgb(112, 110, 233);
+    padding: 20px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+    line-height: 30px;
+
+}
+#contactUs a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.icon{
+    width: 30px;
+}
+
+.foot1, .foot2, .foot3, .foot4, .foot5{
+    margin-top: 50px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+}
+.foot5{
+    flex-basis: 350px;
+}
+input, #submit{
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-block: 10px;
+}
+#submit{
+    background-color: rgb(187, 160, 123);
+}
+#video{
+    width: 500px;
+    height: 280px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1100px){
+    .smallImage{
+        max-width: 400px;
+    }
+    .largeImage{
+        max-width: 850px;
+    }
+}
+
+@media (max-width: 860px){
+    .smallImage{
+        display: block;
+        max-width: 500px;
+        margin: auto;
+    }
+    .largeImage{
+        max-width: 600px;
+    }
+    #video{
+        width: 300px;
+        height: 172px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 860px){
+    header{
+        min-height: 150px;
+    background-size: cover;
+
+    }
+    header h1{
+        font-size: 16px;
+        line-height: 4px;
+        margin-top: 70px;
+    }
+    header h4{
+        font-size: 12px;
+    }
+    .fixedHead a, .fixedHead span {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 600px){
+    header{
+        background-image: none;
+        color: black;
+        margin-block: -25px;
+    }
+    .fixedHead a, .fixedHead span{
+        font-size: 8px;
+        color: white
+    }
+    .leftDiv{
+        width: 110px;
+        align-items: center;
+    }
+    .creativeConsole{margin: auto}
+    .div1, .div2{
+        width: 98%;
+        margin-inline: 5px;
+        margin-block: 25px;
+        text-align: center;
+        padding: 20px 10px;
+        line-height: 25px;
+    }
+    .smallImage{
+        width: 98%;
+        margin-left: 5px;
+    }
+    .largeImage{
+        display: block;
+        width: 97%;
+        margin-inline: 6px 10px;
+    }
+    .head2{
+        max-width: 98%;
+        margin-inline: 7px;
+    }
+    #contactUs{
+        width: 98%;
+        margin:4px;
+    }
+    .hoverShow{
+        display: none;
+    }
+}
